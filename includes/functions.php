@@ -9,7 +9,7 @@ function deleteDefaultPlugins()
   deactivate_plugins('akismet/akismet.php');
   delete_plugins(array('akismet/akismet.php'));
 
-  // // Delete Hello Dolly plugin
+  // Delete Hello Dolly plugin
   deactivate_plugins('hello.php');
   delete_plugins(array('hello.php'));
 }
