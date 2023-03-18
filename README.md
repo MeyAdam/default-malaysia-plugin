@@ -1,5 +1,5 @@
 # default-malaysia-plugin
- - A WordPress Plugin.
+A WordPress Plugin that will do these when activated.  
   - Delete Hello World post.
   - Delete Akismet & Hello Dolly plugin.
   - Set Timezone to Kuala Lumpur.
