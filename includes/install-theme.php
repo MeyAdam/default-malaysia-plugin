@@ -11,8 +11,6 @@ function astra_installer()
     global $wp_filesystem;
     $destination = get_theme_root() . '/astra.zip';
     $wp_filesystem->put_contents($destination, $theme['body']);
-    WP_Filesystem();
-    WP_Filesystem();
     $zip = new ZipArchive;
     $res = $zip->open($destination);
     if ($res === true) {
@@ -34,8 +32,6 @@ function hello_elementor_installer()
     global $wp_filesystem;
     $destination = get_theme_root() . '/hello-elementor.zip';
     $wp_filesystem->put_contents($destination, $theme['body']);
-    WP_Filesystem();
-    WP_Filesystem();
     $zip = new ZipArchive;
     $res = $zip->open($destination);
     if ($res === true) {
